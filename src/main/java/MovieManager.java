@@ -1,12 +1,12 @@
-public class M0vieManager {
+public class MovieManager {
     private String[] movies = new String[0];
     private int limit;
 
-    public M0vieManager() {
+    public MovieManager() {
         this.limit = 5;
     }
 
-    public M0vieManager(int limit) {
+    public MovieManager(int limit) {
         this.limit = limit;
     }
 
